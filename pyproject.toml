@@ -1,0 +1,17 @@
+[project]
+name = "quantum-bot"
+version = "1.0.0"
+description = "Discord bot that copies messages from designated channels"
+authors = [
+    {name = "afglikeu"}
+]
+dependencies = [
+    "discord.py>=2.5.2",
+    "python-dotenv>=1.1.1",
+    "flask>=3.1.1"
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
